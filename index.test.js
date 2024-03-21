@@ -98,5 +98,4 @@ describe('Band, Musician, and Song Models', () => {
         const hasSongName = bandSong.some(song => song.title === "Right here");
         expect(hasSongName).toBe(true);
     })
-
 })
